@@ -1,0 +1,65 @@
+.app {
+  text-align: center;
+  background-color:rgb(255, 216, 144);
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  margin: 10px;
+}
+
+.app-header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 95px 70% 5%;
+}
+
+.app-body {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 65% 35%;
+}
+
+.main {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 40px 1fr;
+}
+
+.header {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  text-align: left;
+  line-height: 45px;
+  padding-top: none;
+  color:rgb(88, 58, 0);
+}
+
+.input-box {
+  width: 100%;
+}
+
+input {
+  height: 25px;
+  width: 65%;
+  border-left: none;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px rgba(0, 0, 0, 0.589) solid;
+  padding-left: 5px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.search-button {
+  height: 25px;
+  width: 80px;
+  background-color:rgb(255, 189, 65);
+  border-radius: 5px 5px 5px 5px;
+  border: 1px rgba(0, 0, 0, 0.589) solid;
+  padding-left: 5px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
